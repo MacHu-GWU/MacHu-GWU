@@ -5,3 +5,17 @@
 ```
 
 I have versatile Engineering background in Data Architect, Data Engineering, Data Analytics, Software Development, DevOps engineering, Database Management, and Machine Learning, actively contributing to Python Open source community.
+
+Popular open source project:
+
+- [uszipcode](https://pypi.org/project/uszipcode/): ![](https://img.shields.io/pypi/dm/uszipcode.svg)
+- [pathlib_mate](https://pypi.org/project/pathlib_mate/): ![](https://img.shields.io/pypi/dm/pathlib_mate.svg)
+- [sqlalchemy_mate](https://pypi.org/project/sqlalchemy_mate/): ![](https://img.shields.io/pypi/dm/sqlalchemy_mate.svg)
+- [s3pathlib](https://pypi.org/project/s3pathlib/): ![](https://img.shields.io/pypi/dm/s3pathlib.svg)
+- [boto-session-manager](https://pypi.org/project/boto-session-manager/): ![](https://img.shields.io/pypi/dm/boto-session-manager.svg)
+- [pysecret](https://pypi.org/project/pysecret/): ![](https://img.shields.io/pypi/dm/pysecret.svg)
+- [cottonformation](https://pypi.org/project/cottonformation/): ![](https://img.shields.io/pypi/dm/cottonformation.svg)
+- [loggerFactory](https://pypi.org/project/loggerFactory/): ![](https://img.shields.io/pypi/dm/loggerFactory.svg)
+- [superjson](https://pypi.org/project/superjson/): ![](https://img.shields.io/pypi/dm/superjson.svg)
+- [docfly](https://pypi.org/project/docfly/): ![](https://img.shields.io/pypi/dm/docfly.svg)
+- [rstobj](https://pypi.org/project/rstobj/): ![](https://img.shields.io/pypi/dm/rstobj.svg)
