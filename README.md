@@ -19,3 +19,8 @@ Popular open source project:
 - [superjson](https://pypi.org/project/superjson/): ![](https://img.shields.io/pypi/dm/superjson.svg)
 - [docfly](https://pypi.org/project/docfly/): ![](https://img.shields.io/pypi/dm/docfly.svg)
 - [rstobj](https://pypi.org/project/rstobj/): ![](https://img.shields.io/pypi/dm/rstobj.svg)
+- [aws_cloudformation](https://pypi.org/project/aws_cloudformation/): ![](https://img.shields.io/pypi/dm/aws_cloudformation.svg)
+- [aws_codebuild](https://pypi.org/project/aws_codebuild/): ![](https://img.shields.io/pypi/dm/aws_codebuild.svg)
+- [aws_codecommit](https://pypi.org/project/rstobj/): ![](https://img.shields.io/pypi/dm/aws_codecommit.svg)
+- [aws_stepfunction](https://pypi.org/project/aws_stepfunction/): ![](https://img.shields.io/pypi/dm/aws_stepfunction.svg)
+- [iterproxy](https://pypi.org/project/iterproxy/): ![](https://img.shields.io/pypi/dm/iterproxy.svg)
