@@ -14,6 +14,7 @@ Popular open source project:
 - [s3pathlib](https://pypi.org/project/s3pathlib/): ![](https://img.shields.io/pypi/dm/s3pathlib.svg)
 - [boto-session-manager](https://pypi.org/project/boto-session-manager/): ![](https://img.shields.io/pypi/dm/boto-session-manager.svg)
 - [pysecret](https://pypi.org/project/pysecret/): ![](https://img.shields.io/pypi/dm/pysecret.svg)
+- [pynamodb-mate](https://pypi.org/project/pynamodb-mate/): ![](https://img.shields.io/pypi/dm/pynamodb-mate.svg)
 - [cottonformation](https://pypi.org/project/cottonformation/): ![](https://img.shields.io/pypi/dm/cottonformation.svg)
 - [loggerFactory](https://pypi.org/project/loggerFactory/): ![](https://img.shields.io/pypi/dm/loggerFactory.svg)
 - [superjson](https://pypi.org/project/superjson/): ![](https://img.shields.io/pypi/dm/superjson.svg)
