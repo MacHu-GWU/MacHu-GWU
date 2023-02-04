@@ -24,4 +24,7 @@ Popular open source project:
 - [aws_codebuild](https://pypi.org/project/aws_codebuild/): ![](https://img.shields.io/pypi/dm/aws_codebuild.svg)
 - [aws_codecommit](https://pypi.org/project/rstobj/): ![](https://img.shields.io/pypi/dm/aws_codecommit.svg)
 - [aws_stepfunction](https://pypi.org/project/aws_stepfunction/): ![](https://img.shields.io/pypi/dm/aws_stepfunction.svg)
+- [aws_lambda_event](https://pypi.org/project/aws_lambda_event/): ![](https://img.shields.io/pypi/dm/aws_lambda_event.svg)
+- [aws_console_url](https://pypi.org/project/aws_console_url/): ![](https://img.shields.io/pypi/dm/aws_console_url.svg)
 - [iterproxy](https://pypi.org/project/iterproxy/): ![](https://img.shields.io/pypi/dm/iterproxy.svg)
+- [afwf](https://pypi.org/project/afwf/): ![](https://img.shields.io/pypi/dm/afwf.svg)
