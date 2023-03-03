@@ -28,3 +28,4 @@ Popular open source project:
 - [aws_console_url](https://pypi.org/project/aws_console_url/): ![](https://img.shields.io/pypi/dm/aws_console_url.svg)
 - [iterproxy](https://pypi.org/project/iterproxy/): ![](https://img.shields.io/pypi/dm/iterproxy.svg)
 - [afwf](https://pypi.org/project/afwf/): ![](https://img.shields.io/pypi/dm/afwf.svg)
+- [aws_ci_bot](https://github.com/MacHu-GWU/aws_ci_bot-project)
