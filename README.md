@@ -18,6 +18,7 @@ Popular open source project:
 - [func_args](https://pypi.org/project/func-args/): ![](https://img.shields.io/pypi/dm/func-args.svg)
 - [pynamodb-mate](https://pypi.org/project/pynamodb-mate/): ![](https://img.shields.io/pypi/dm/pynamodb-mate.svg)
 - [cottonformation](https://pypi.org/project/cottonformation/): ![](https://img.shields.io/pypi/dm/cottonformation.svg)
+- [attrs_mate](https://pypi.org/project/attrs-mate/): ![](https://img.shields.io/pypi/dm/attrs-mate.svg)
 - [loggerFactory](https://pypi.org/project/loggerFactory/): ![](https://img.shields.io/pypi/dm/loggerFactory.svg)
 - [superjson](https://pypi.org/project/superjson/): ![](https://img.shields.io/pypi/dm/superjson.svg)
 - [docfly](https://pypi.org/project/docfly/): ![](https://img.shields.io/pypi/dm/docfly.svg)
