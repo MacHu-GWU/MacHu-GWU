@@ -4,205 +4,109 @@
 Requirements::
 
     pip install -U pypistats
+    pip install -U pypistats
 
 Google Sheet: https://docs.google.com/spreadsheets/d/1iDPOgXn0PqxlMWdUH6guUKYdaTZN6JC78Nv-WL6J6kY/edit?gid=0#gid=0
 """
 
 import typing as T
 import time
-import json
-from datetime import date
 from pathlib import Path
 
+import tabulate
 import requests
 from diskcache import Cache
 
-cache = Cache(".cache")
+dir_here = Path(__file__).absolute().parent
+dir_tmp = dir_here.joinpath("tmp")
 
-headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0"}
+path_library_io_api_key = dir_tmp.joinpath("library_io_api_key.txt")
+api_key = path_library_io_api_key.read_text().strip()
 
-def get_last_month_download(package: str) -> int:
-    print(f"work on {package}")
-    if package in cache:
-        print("  fetching from Cache ...")
-        n = cache[package]
-    else:
-        print("  fetching from API ...")
-        time.sleep(1)
-        url = f"https://pypistats.org/api/packages/{package}/recent"
-        res = requests.get(url, headers=headers)
-        text = res.text
-        print(text)
-        data = json.loads(text)
-        n = data["data"]["last_month"]
-        cache[package] = n
-    print(f"    {n}")
-    return n
+dir_cache = dir_tmp.joinpath(".cache")
+cache = Cache(str(dir_cache))
+
+libraries_io_username = "MacHu-GWU"
+per_page = 30
 
 
-# https://pypi.org/manage/projects/
-package_list = """
-aws-dynamodb-io
-simple-aws-ecr
-aws-lambda-layer
-aws-sdk-polars
-pynamodb-mate
-compress
-aws-glue-catalog
-dbsnaplake
-jsonpolars
-simpletype
-polars-writer
-s3pathlib
-s3manifesto
-fast-dynamodb-json
-acore-server-bootstrap
-acore-server-monitoring-measurement
-acore-paths
-acore-constants
-acore-server-monitoring-core
-acore-soap-remote
-acore-soap-agent
-acore-soap
-acore-server
-acore-server-config
-hotkeynet
-acore-soap-app
-acore-df
-aws-ops-alpha
-wow-sdm
-acore-db-app
-wow-wtf
-wow-acc
-acore-server-metadata
-packer-ami-workflow
-acore-db-ssh-tunnel
-ssh2awsec2
-simple-aws-ec2
-simple-aws-rds
-aws-ssm-run-command
-config-patterns
-vislog
-acore-conf
-sqlalchemy-mate
-aws-textract
-aws-textract-pipeline
-aws-comprehend
-findref
-aws-glue-container-launcher
-docfly
-aws-console-url-search
-aws-resource-search
-windtalker
-zelfred
-awscli-mate
-attrs-mate
-pathlib-mate
-boto-session-manager
-pyproject-ops
-picage
-unistream
-abstract-tracker
-tt4human
-afwf
-fixa
-gh-action-open-id-in-aws
-virtualenv-bootstrap
-aws-console-url
-cross-aws-account-iam-role
-pysecret
-aws-cloudformation
-iterproxy
-sayt
-aws-arns
-versioned
-jmespath-token
-afwf-shell
-git-web-url
-aws-glue-artifact
-airflow-dag-artifact
-aws-a2i
-cookiecutter-maker
-sftp-to-s3
-dataclasses-sqlitedict
-pygitrepo
-cottonformation
-aws-lambda-event
-aws-stepfunction
-light-emoji
-func-args
-aws-codecommit
-aws-codebuild
-rstobj
-dynamodb-cache
-# loggerFactory
-lakeformation
-superjson
-configirl
-uszipcode
-aws-text-insight
-pgr
-s3splitmerge
-troposphere-mate
-crawlib
-mongoengine-mate
-lbdrabbit
-s3iotools
-pylbd
-sfm
-dba
-dupe-remove
-rolex
-constant2
-invsearch
-loc
-inspect_mate
-apipool
-mongomock-mate
-pytq-crawlib
-attrsmallow
-convert2
-pytq
-fileshelf
-utf8config
-pymongo_mate
-elementary_math
-ezinstall
-crawl_redfin
-cazipcode
-pandas_mate
-constant
-# dataIO
-# autocompvar
-# crawl_trulia
-# crawl_zillow
-# diablo2_doc
-# macro
-# potplayer
-# filetool
-# wechinelearn
-# ctmatching
-# pyclopedia
-# crosys
-# ssan
-# angora
-# geomate
-# canbeAny
-# pyknackhq
-# sqlite4dummy
-""".strip().splitlines()
+def get_libraries(page: int):
+    print(f"Fetching page {page} from libraries.io ...")
+    time.sleep(1)
+    url = (
+        f"https://libraries.io/api/search?"
+        f"platforms=PyPI"
+        f"&q={libraries_io_username}"
+        f"&per_page={per_page}"
+        f"&page={page}"
+        f"&api_key={api_key}"
+    )
+    res = requests.get(url)
+    res.raise_for_status()
+    data = res.json()
+    return data
 
-lines: T.List[str] = list()
-line = "\t".join(["name", "monthly_downloads"])
-lines.append(line)
-for package in package_list:
-    if package.startswith("#"):
+
+@cache.memoize(expire=30 * 24 * 60 * 60)
+def get_all_libraries() -> list[dict[str, T.Any]]:
+    items = list()
+    for page in range(1, 100 + 1):
+        result = get_libraries(page)
+        if not result:
+            break
+        items.extend(result)
+    print(f"Done got {len(items)} libraries from libraries.io")
+    return items
+
+
+@cache.memoize(expire=30 * 24 * 60 * 60)
+def get_last_month_download(package: str):
+    print(f"Fetching download status of {package!r}")
+    time.sleep(1)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0"
+    }
+    url = f"https://pypistats.org/api/packages/{package.lower()}/recent"
+    res = requests.get(url, headers=headers)
+    res.raise_for_status()
+    data = res.json()
+    print("  Done")
+    return data
+
+
+black_list = {
+    "diablo2_doc",
+    "pyclopedia",
+}
+
+items = get_all_libraries()
+records = list()
+for item in items:
+    name = item["name"]
+    if name in black_list:
         continue
-    n = get_last_month_download(package)
-    print(package, n)
-    line = "\t".join([package, str(n)])
-    lines.append(line)
+    data = get_last_month_download(name)
+    # monthly_downloads = data["data"]["last_month"]
+    # description = item["description"]
+    records.append((item, data))
+records = sorted(records, key=lambda tp: tp[1]["data"]["last_month"], reverse=True)
 
+columns = ["package", "downloads", "description"]
+rows = list()
+for item, data in records:
+    name = item["name"]
+    description = item["description"]
+    if description:
+        description = description.strip()
+    else:
+        description = "No description"
+    monthly_downloads = data["data"]["last_month"]
 
-filename = f"pypi_download_status_{date.today()}.tsv"
-Path(filename).write_text("\n".join(lines))
+    package = f"[{name}](https://pypi.org/project/{name}/)"
+    # downloads = f"![](https://img.shields.io/pypi/dm/{name}.svg)"
+    downloads = f"{monthly_downloads}"
+    rows.append((package, downloads, description))
+
+tb = tabulate.tabulate(rows, headers=columns, tablefmt="github")
+path_download_stats_ = dir_tmp.joinpath("pypi_download_stats.md")
+path_download_stats_.write_text(str(tb))
