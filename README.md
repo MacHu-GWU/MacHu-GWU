@@ -4,7 +4,7 @@
    o_(")(")
 ```
 
-I have versatile Engineering background in Data Architect, Data Engineering, Data Analytics, Software Development, DevOps engineering, Database Management, and Machine Learning, actively contributing to Python Open source community.
+I have versatile Engineering background in AI / Data Architect, Data Engineering, Data Analytics, Software Development, DevOps engineering, Database Management, and Machine Learning, actively contributing to Python Open source community.
 
 Popular open source project:
 
@@ -34,3 +34,6 @@ Popular open source project:
 - [pyproject_ops](https://pypi.org/project/pyproject-ops/): ![](https://img.shields.io/pypi/dm/pyproject-ops.svg)
 - [aws_ci_bot](https://github.com/MacHu-GWU/aws_ci_bot-project)
 
+Claude Code Power User
+
+![](./claude-code-usage.png)
