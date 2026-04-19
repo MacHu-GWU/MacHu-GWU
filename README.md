@@ -17,6 +17,8 @@ Popular open source project:
 - [iterproxy](https://pypi.org/project/iterproxy/): ![](https://img.shields.io/pypi/dm/iterproxy.svg)
 - [func_args](https://pypi.org/project/func-args/): ![](https://img.shields.io/pypi/dm/func-args.svg)
 - [pynamodb-mate](https://pypi.org/project/pynamodb-mate/): ![](https://img.shields.io/pypi/dm/pynamodb-mate.svg)
+
+<!--
 - [cottonformation](https://pypi.org/project/cottonformation/): ![](https://img.shields.io/pypi/dm/cottonformation.svg)
 - [attrs_mate](https://pypi.org/project/attrs-mate/): ![](https://img.shields.io/pypi/dm/attrs-mate.svg)
 - [loggerFactory](https://pypi.org/project/loggerFactory/): ![](https://img.shields.io/pypi/dm/loggerFactory.svg)
@@ -33,6 +35,7 @@ Popular open source project:
 - [afwf](https://pypi.org/project/afwf/): ![](https://img.shields.io/pypi/dm/afwf.svg)
 - [pyproject_ops](https://pypi.org/project/pyproject-ops/): ![](https://img.shields.io/pypi/dm/pyproject-ops.svg)
 - [aws_ci_bot](https://github.com/MacHu-GWU/aws_ci_bot-project)
+-->
 
 Claude Code Power User
 
