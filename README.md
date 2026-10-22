@@ -16,7 +16,7 @@
 [![ex-AWS](https://img.shields.io/badge/ex--AWS-Senior%20Data%20Architect-FF9900?logo=amazonwebservices&logoColor=white)](https://github.com/aws-samples/s3pathlib-project)
 [![GitHub followers](https://img.shields.io/github/followers/MacHu-GWU?label=Followers&logo=github)](https://github.com/MacHu-GWU?tab=followers)
 
-| [📦 200+](https://pypi.org/user/machugwu/) | [📈 10M+](https://pypistats.org/) | [✍️ 4K+](https://github.com/MacHu-GWU) | [🤖 50B+](https://github.com/MacHu-GWU) |
+| [📦 200+](https://pypi.org/user/machugwu/) | [📈 10M+](https://pypistats.org/) | [✍️ 4K+](https://github.com/MacHu-GWU) | [🤖 50B+](https://github.com/MacHu-GWU#-claude-code) |
 |:---:|:---:|:---:|:---:|
 | PyPI packages ↗ | monthly downloads ↗ | commits per year ↗ | Claude tokens in 2026 ↗ |
 
