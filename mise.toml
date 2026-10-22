@@ -18,3 +18,7 @@ run = "rm -r .venv"
 [tasks.inst]
 description = "💾 Install Python dependencies (dev, test, doc, etc.) via uv"
 run = "uv sync --all-extras"
+
+[tasks.pypi-downloads]
+description = "📦 Fetch PyPI monthly downloads and update the package list in README.md"
+run = "uv run python -m machugwu.pypi_downloads"

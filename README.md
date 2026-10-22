@@ -8,15 +8,15 @@ I have versatile Engineering background in AI / Data Architect, Data Engineering
 
 Popular open source project:
 
-- [uszipcode](https://pypi.org/project/uszipcode/): ![](https://img.shields.io/pypi/dm/uszipcode.svg)
-- [pathlib_mate](https://pypi.org/project/pathlib_mate/): ![](https://img.shields.io/pypi/dm/pathlib_mate.svg)
-- [sqlalchemy_mate](https://pypi.org/project/sqlalchemy_mate/): ![](https://img.shields.io/pypi/dm/sqlalchemy_mate.svg)
-- [s3pathlib](https://pypi.org/project/s3pathlib/): ![](https://img.shields.io/pypi/dm/s3pathlib.svg)
-- [boto-session-manager](https://pypi.org/project/boto-session-manager/): ![](https://img.shields.io/pypi/dm/boto-session-manager.svg)
-- [pysecret](https://pypi.org/project/pysecret/): ![](https://img.shields.io/pypi/dm/pysecret.svg)
-- [iterproxy](https://pypi.org/project/iterproxy/): ![](https://img.shields.io/pypi/dm/iterproxy.svg)
-- [func_args](https://pypi.org/project/func-args/): ![](https://img.shields.io/pypi/dm/func-args.svg)
-- [pynamodb-mate](https://pypi.org/project/pynamodb-mate/): ![](https://img.shields.io/pypi/dm/pynamodb-mate.svg)
+<!-- BEGIN pypi-downloads -->
+- [uszipcode](https://github.com/MacHu-GWU/uszipcode-project): [![](https://img.shields.io/badge/downloads-1.2M%2Fmonth-blue)](https://pypistats.org/packages/uszipcode)
+- [pathlib_mate](https://github.com/MacHu-GWU/pathlib_mate-project): [![](https://img.shields.io/badge/downloads-1.8M%2Fmonth-blue)](https://pypistats.org/packages/pathlib-mate)
+- [sqlalchemy_mate](https://github.com/MacHu-GWU/sqlalchemy_mate-project): [![](https://img.shields.io/badge/downloads-1.1M%2Fmonth-blue)](https://pypistats.org/packages/sqlalchemy-mate)
+- [s3pathlib](https://github.com/MacHu-GWU/s3pathlib-project): [![](https://img.shields.io/badge/downloads-682k%2Fmonth-blue)](https://pypistats.org/packages/s3pathlib)
+- [boto_session_manager](https://github.com/MacHu-GWU/boto_session_manager-project): [![](https://img.shields.io/badge/downloads-667k%2Fmonth-blue)](https://pypistats.org/packages/boto-session-manager)
+- [iterproxy](https://github.com/MacHu-GWU/iterproxy-project): [![](https://img.shields.io/badge/downloads-656k%2Fmonth-blue)](https://pypistats.org/packages/iterproxy)
+- [func_args](https://github.com/MacHu-GWU/func_args-project): [![](https://img.shields.io/badge/downloads-671k%2Fmonth-blue)](https://pypistats.org/packages/func-args)
+<!-- END pypi-downloads -->
 
 <!--
 - [cottonformation](https://pypi.org/project/cottonformation/): ![](https://img.shields.io/pypi/dm/cottonformation.svg)
