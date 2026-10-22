@@ -19,6 +19,10 @@ run = "rm -r .venv"
 description = "💾 Install Python dependencies (dev, test, doc, etc.) via uv"
 run = "uv sync --all-extras"
 
+[tasks.cc-usage]
+description = "📊 Collect Claude Code usage into state/claude_code_usage.json and render claude-code-usage.svg"
+run = "uv run python -m machugwu.claude_code_usage"
+
 [tasks.pypi-downloads]
 description = "📦 Fetch PyPI monthly downloads and update the package list in README.md"
 run = "uv run python -m machugwu.pypi_downloads"

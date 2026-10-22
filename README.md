@@ -39,4 +39,4 @@ Popular open source project:
 
 Claude Code Power User
 
-![](./claude-code-usage.png)
+![Claude Code usage](./claude-code-usage.svg)
