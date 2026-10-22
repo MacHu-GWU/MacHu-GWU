@@ -6,7 +6,9 @@
 
 ### Hi, I'm Sanhe 👋
 
-**AI & Data Architect · Open-source builder · Claude Code power user**
+**Forward-deployed AI Architect · Builder who sells, seller who builds · Claude Code power user**
+
+> *I build the tool before Anthropic ships the official feature.*
 
 15+ years designing data and AI platforms, formerly a Senior Data Architect at AWS Data Lab. I spend my spare time building developer tools and shipping them as open source: Python libraries, MCP servers, and Claude Code plugins.
 
@@ -19,6 +21,15 @@
 | [📦 200+](https://pypi.org/user/machugwu/) | [📈 10M+](https://pypistats.org/) | [✍️ 4K+](https://github.com/MacHu-GWU) | [🤖 50B+](https://github.com/MacHu-GWU#-claude-code) |
 |:---:|:---:|:---:|:---:|
 | PyPI packages ↗ | monthly downloads ↗ | commits per year ↗ | Claude tokens in 2026 ↗ |
+
+---
+
+### ⚡ What makes me different
+
+- 🤝 **Forward-deployed and customer-obsessed.** I sit with the customer, find the problem behind the problem, sell the solution, and stay until it runs in production. Dozens of enterprise engagements across 15+ industries: finance, healthcare, insurance, energy, life sciences, and federal.
+- 💰 **Customers first, product second.** Most engineers build a product, then go looking for users. I do it the other way around: find the need, win the user over, convert them into a paying customer, and only then build. Building is the fast part for me.
+- 🧭 **Founder mindset.** I own outcomes, not tickets. Product, go-to-market, operations, even legal and finance: I've sat in every seat, so I think about the whole business, not just the code.
+- 🛠️ **If it doesn't exist, I build it.** I've worked this way since long before AI. When the tool I want isn't out there, I make it, which is why the [tools below](#-shipped-before-the-official-feature) shipped before Anthropic, AWS, Cursor, and the vendors shipped theirs.
 
 ---
 
@@ -70,8 +81,9 @@ I run Claude Code all day and maintain ~160 custom agents and a set of plugins t
 
 ---
 
-### 🚀 AI tools I built before the official ones existed
+### 🚀 Shipped before the official feature
 
+- **[troposphere_mate](https://github.com/MacHu-GWU/troposphere_mate-project) → [cottonformation](https://cottonformation.readthedocs.io/en/latest/)** (2019): Pythonic infrastructure as code for AWS, with type hints, auto-validation, and real objects instead of hand-written CloudFormation templates. *Released before AWS CDK went GA, and the project that won over my AWS Bar Raiser and got me hired.*
 - **[DocPack](https://docpack.readthedocs.io/en/latest/)** (Jan 2023): zero-dependency codebase-to-context tool that packs a whole repo into structurally annotated files any LLM can read, no RAG required. *5 months before Cursor launched.*
 - **[Claude Prompt Launcher](https://sanhehu.atlassian.net/wiki/external/ZmNhY2NiMDE4ODcyNGQxYWE1ZjE1Y2U1MDU3MzBhMmY)** (Aug 2024): fuzzy search across 200+ Claude Projects, launching prompts from anywhere on the desktop. *6 months before Claude Code's native slash commands.*
 - **[shai_tix](https://shai-tix.readthedocs.io/en/latest/)** (Jul 2025): JIRA-like task management for AI agents. CLI first, filesystem-backed, 100% local, runs via `uvx`. *4 months before Claude Code's native Tasks.*
