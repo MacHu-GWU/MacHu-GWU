@@ -1,7 +1,8 @@
 # User Settings
+machugwu.egg-info/
 tmp/
+.idea/
 .cache/
-
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
