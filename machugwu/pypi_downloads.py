@@ -13,6 +13,11 @@ The list lives between two invisible HTML comments in the README::
 Everything between the markers is regenerated on each run. pypistats.org has no
 batch endpoint, so packages are fetched one by one with a short pause in between.
 
+The exact numbers and the fetch date are also written to
+``state/pypi_downloads.json``. Its content changes on every run, so the weekly
+GitHub Action always has something to commit, which keeps the repository active
+and stops GitHub from disabling the scheduled workflow after 60 idle days.
+
 Usage::
 
     python -m machugwu.pypi_downloads
@@ -24,9 +29,11 @@ import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from datetime import datetime, timezone
 
 dir_project_root = Path(__file__).absolute().parent.parent
 path_readme = dir_project_root.joinpath("README.md")
+path_downloads_json = dir_project_root.joinpath("state", "pypi_downloads.json")
 
 github_username = "MacHu-GWU"
 
@@ -107,16 +114,28 @@ def update_readme(block: str):
     path_readme.write_text(pattern.sub(lambda _: new_block, text, count=1))
 
 
+def write_json(downloads: dict[str, dict[str, int]]):
+    path_downloads_json.parent.mkdir(parents=True, exist_ok=True)
+    data = {
+        "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "packages": downloads,
+    }
+    path_downloads_json.write_text(json.dumps(data, indent=4) + "\n")
+
+
 def main():
+    downloads = dict()
     lines = list()
     for i, package in enumerate(packages):
         if i:
             time.sleep(SLEEP_SECONDS)
         data = get_recent_downloads(package)
         print(f"{package}: {data['last_month']:,} downloads last month")
+        downloads[package] = data
         lines.append(render_line(package, data["last_month"]))
     update_readme("\n".join(lines))
-    print(f"Updated {path_readme}")
+    write_json(downloads)
+    print(f"Updated {path_readme} and {path_downloads_json}")
 
 
 if __name__ == "__main__":

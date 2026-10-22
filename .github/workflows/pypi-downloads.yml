@@ -1,9 +1,14 @@
-# Fetch the monthly PyPI downloads every week and update the package list in README.md
+# Fetch the monthly PyPI downloads every week and update the package list in README.md.
+#
+# Each run also rewrites state/pypi_downloads.json with a new timestamp, so there is
+# always a commit. That commit doubles as the keepalive: GitHub disables scheduled
+# workflows in a public repo after 60 days without repository activity.
 name: pypi-downloads
 
 on:
   schedule:
-    - cron: "0 0 * * 1" # every Monday 00:00 UTC
+    - cron: "0 8 * * 1" # every Monday 08:00 US Eastern, DST handled by GitHub
+      timezone: "America/New_York"
   workflow_dispatch:
 
 permissions:
@@ -19,14 +24,10 @@ jobs:
           python-version: "3.12"
       - name: Update README.md
         run: python -m machugwu.pypi_downloads
-      - name: Commit and push if changed
+      - name: Commit and push
         run: |
-          if git diff --quiet README.md; then
-            echo "README.md unchanged"
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md state/pypi_downloads.json
           git commit -m "Update PyPI download badges"
           git push
