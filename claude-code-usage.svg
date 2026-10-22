@@ -114,7 +114,7 @@
 <rect class="l3" x="258" y="62" width="13" height="13" rx="2"><title>2026-10-18: 80 prompts, 733 API calls, 168.8M tokens</title></rect>
 <rect class="l3" x="258" y="78" width="13" height="13" rx="2"><title>2026-10-19: 63 prompts, 697 API calls, 150.6M tokens</title></rect>
 <rect class="l3" x="258" y="94" width="13" height="13" rx="2"><title>2026-10-20: 87 prompts, 709 API calls, 156.8M tokens</title></rect>
-<rect class="l2" x="258" y="110" width="13" height="13" rx="2"><title>2026-10-21: 60 prompts, 482 API calls, 85.1M tokens</title></rect>
+<rect class="l2" x="258" y="110" width="13" height="13" rx="2"><title>2026-10-21: 73 prompts, 592 API calls, 104.9M tokens</title></rect>
 <text class="label" x="135" y="195">Less</text>
 <rect class="l0" x="167" y="186" width="11" height="11" rx="2"/>
 <rect class="l1" x="181" y="186" width="11" height="11" rx="2"/>
@@ -127,16 +127,16 @@
 <text class="head" x="602" y="66">TOKENS</text>
 <line class="rule" x1="307" x2="692" y1="76" y2="76"/>
 <text class="label" x="307" y="106">Last 7 days</text>
-<text class="value" x="397" y="107">504</text>
-<text class="value" x="492" y="107">6.2K</text>
+<text class="value" x="397" y="107">517</text>
+<text class="value" x="492" y="107">6.3K</text>
 <text class="value" x="602" y="107">1.2B</text>
 <text class="label" x="307" y="136">Last 30 days</text>
 <text class="value" x="397" y="137">1.4K</text>
-<text class="value" x="492" y="137">17.7K</text>
+<text class="value" x="492" y="137">17.8K</text>
 <text class="value" x="602" y="137">4.1B</text>
 <text class="label" x="307" y="166">Last 90 days</text>
 <text class="value" x="397" y="167">2.4K</text>
-<text class="value" x="492" y="167">43.1K</text>
+<text class="value" x="492" y="167">43.2K</text>
 <text class="value" x="602" y="167">11.6B</text>
 <text class="label" x="307" y="199">Prompts = messages I typed · API calls incl. subagents · updated 2026-10-21</text>
 </svg>

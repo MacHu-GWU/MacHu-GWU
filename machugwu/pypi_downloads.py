@@ -14,9 +14,8 @@ Everything between the markers is regenerated on each run. pypistats.org has no
 batch endpoint, so packages are fetched one by one with a short pause in between.
 
 The exact numbers and the fetch date are also written to
-``state/pypi_downloads.json``. Its content changes on every run, so the weekly
-GitHub Action always has something to commit, which keeps the repository active
-and stops GitHub from disabling the scheduled workflow after 60 idle days.
+``state/pypi_downloads.json`` for local inspection. ``state/`` is gitignored:
+only the rendered README is committed.
 
 Usage::
 

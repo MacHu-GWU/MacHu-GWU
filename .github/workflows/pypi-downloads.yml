@@ -1,8 +1,8 @@
 # Fetch the monthly PyPI downloads every week and update the package list in README.md.
 #
-# Each run also rewrites state/pypi_downloads.json with a new timestamp, so there is
-# always a commit. That commit doubles as the keepalive: GitHub disables scheduled
-# workflows in a public repo after 60 days without repository activity.
+# state/ is gitignored, so only README.md is committed, and only when the rounded
+# badge numbers actually changed. GitHub disables scheduled workflows after 60 days
+# without repository activity; the local `mise run publish` pushes keep it alive.
 name: pypi-downloads
 
 on:
@@ -28,6 +28,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md state/pypi_downloads.json
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "README.md unchanged, nothing to commit"
+            exit 0
+          fi
           git commit -m "Update PyPI download badges"
           git push

@@ -26,3 +26,30 @@ run = "uv run python -m machugwu.claude_code_usage"
 [tasks.pypi-downloads]
 description = "📦 Fetch PyPI monthly downloads and update the package list in README.md"
 run = "uv run python -m machugwu.pypi_downloads"
+
+# One-shot refresh of the Claude Code usage heatmap, meant for a launcher (e.g.
+# Alfred) since the usage can only be collected on this machine:
+#
+#     mise -C ~/Documents/GitHub/MacHu-GWU run publish
+#
+# 1. pull first: the weekly pypi-downloads GitHub Action pushes README.md commits
+# 2. regenerate claude-code-usage.svg (README.md only references it, no edit needed)
+# 3. commit only the SVG (skipped when nothing changed), then push.
+#    state/*.json is gitignored and stays local; state/claude_code_usage.json is
+#    still the long-term history the SVG is built from, so don't delete it.
+# PyPI downloads are left to the GitHub Action.
+[tasks.publish]
+description = "🚀 Refresh the Claude Code usage SVG, then commit and push"
+run = """
+#!/usr/bin/env bash
+set -euo pipefail
+git pull --rebase --autostash
+mise run cc-usage
+git add -- claude-code-usage.svg
+if git diff --cached --quiet -- claude-code-usage.svg; then
+    echo "Nothing changed, skip commit"
+else
+    git commit -m "Update Claude Code usage ($(date +%F))" -- claude-code-usage.svg
+fi
+git push
+"""
