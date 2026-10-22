@@ -3,7 +3,7 @@ machugwu.egg-info/
 tmp/
 .idea/
 .cache/
-state/claude-code-usage.json
+state/claude_code_usage.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

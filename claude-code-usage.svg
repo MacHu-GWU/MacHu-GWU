@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="637" height="215" viewBox="0 0 637 215" role="img" aria-label="Claude Code usage heatmap, last 90 days">
+<svg xmlns="http://www.w3.org/2000/svg" width="712" height="215" viewBox="0 0 712 215" role="img" aria-label="Claude Code usage heatmap, last 90 days">
 <style>
 .bg { fill: #ffffff; stroke: #d0d7de; }
 .title { fill: #1f2328; font: 600 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
@@ -17,7 +17,7 @@
   .l3 { fill: #d0672a; } .l4 { fill: #f4a66d; }
 }
 </style>
-<rect class="bg" x="0.5" y="0.5" width="636" height="214" rx="6"/>
+<rect class="bg" x="0.5" y="0.5" width="711" height="214" rx="6"/>
 <text class="title" x="20" y="30">Claude Code usage · last 90 days</text>
 <text class="label" x="66" y="54">Aug</text>
 <text class="label" x="146" y="54">Sep</text>
@@ -25,96 +25,96 @@
 <text class="label" x="20" y="89">Mon</text>
 <text class="label" x="20" y="121">Wed</text>
 <text class="label" x="20" y="153">Fri</text>
-<rect class="l1" x="50" y="142" width="13" height="13" rx="2"><title>2026-07-24: 223 messages, 25.0M tokens</title></rect>
+<rect class="l1" x="50" y="142" width="13" height="13" rx="2"><title>2026-07-24: 20 prompts, 203 API calls, 25.0M tokens</title></rect>
 <rect class="l0" x="50" y="158" width="13" height="13" rx="2"><title>2026-07-25: no usage</title></rect>
 <rect class="l0" x="66" y="62" width="13" height="13" rx="2"><title>2026-07-26: no usage</title></rect>
 <rect class="l0" x="66" y="78" width="13" height="13" rx="2"><title>2026-07-27: no usage</title></rect>
 <rect class="l0" x="66" y="94" width="13" height="13" rx="2"><title>2026-07-28: no usage</title></rect>
-<rect class="l2" x="66" y="110" width="13" height="13" rx="2"><title>2026-07-29: 482 messages, 71.0M tokens</title></rect>
-<rect class="l1" x="66" y="126" width="13" height="13" rx="2"><title>2026-07-30: 36 messages, 15.3M tokens</title></rect>
-<rect class="l1" x="66" y="142" width="13" height="13" rx="2"><title>2026-07-31: 17 messages, 1.4M tokens</title></rect>
-<rect class="l2" x="66" y="158" width="13" height="13" rx="2"><title>2026-08-01: 172 messages, 43.1M tokens</title></rect>
-<rect class="l1" x="82" y="62" width="13" height="13" rx="2"><title>2026-08-02: 90 messages, 20.5M tokens</title></rect>
+<rect class="l2" x="66" y="110" width="13" height="13" rx="2"><title>2026-07-29: 5 prompts, 477 API calls, 71.0M tokens</title></rect>
+<rect class="l1" x="66" y="126" width="13" height="13" rx="2"><title>2026-07-30: 4 prompts, 32 API calls, 15.3M tokens</title></rect>
+<rect class="l1" x="66" y="142" width="13" height="13" rx="2"><title>2026-07-31: 1 prompts, 16 API calls, 1.4M tokens</title></rect>
+<rect class="l2" x="66" y="158" width="13" height="13" rx="2"><title>2026-08-01: 12 prompts, 160 API calls, 43.1M tokens</title></rect>
+<rect class="l1" x="82" y="62" width="13" height="13" rx="2"><title>2026-08-02: 10 prompts, 80 API calls, 20.5M tokens</title></rect>
 <rect class="l0" x="82" y="78" width="13" height="13" rx="2"><title>2026-08-03: no usage</title></rect>
-<rect class="l1" x="82" y="94" width="13" height="13" rx="2"><title>2026-08-04: 11 messages, 2.9M tokens</title></rect>
-<rect class="l1" x="82" y="110" width="13" height="13" rx="2"><title>2026-08-05: 12 messages, 655.1K tokens</title></rect>
+<rect class="l1" x="82" y="94" width="13" height="13" rx="2"><title>2026-08-04: 3 prompts, 8 API calls, 2.9M tokens</title></rect>
+<rect class="l1" x="82" y="110" width="13" height="13" rx="2"><title>2026-08-05: 1 prompts, 11 API calls, 655.1K tokens</title></rect>
 <rect class="l0" x="82" y="126" width="13" height="13" rx="2"><title>2026-08-06: no usage</title></rect>
-<rect class="l1" x="82" y="142" width="13" height="13" rx="2"><title>2026-08-07: 40 messages, 1.9M tokens</title></rect>
-<rect class="l1" x="82" y="158" width="13" height="13" rx="2"><title>2026-08-08: 19 messages, 910.6K tokens</title></rect>
+<rect class="l1" x="82" y="142" width="13" height="13" rx="2"><title>2026-08-07: 3 prompts, 37 API calls, 1.9M tokens</title></rect>
+<rect class="l1" x="82" y="158" width="13" height="13" rx="2"><title>2026-08-08: 2 prompts, 17 API calls, 910.6K tokens</title></rect>
 <rect class="l0" x="98" y="62" width="13" height="13" rx="2"><title>2026-08-09: no usage</title></rect>
 <rect class="l0" x="98" y="78" width="13" height="13" rx="2"><title>2026-08-10: no usage</title></rect>
-<rect class="l0" x="98" y="94" width="13" height="13" rx="2"><title>2026-08-11: 2 messages, 0 tokens</title></rect>
-<rect class="l1" x="98" y="110" width="13" height="13" rx="2"><title>2026-08-12: 51 messages, 4.4M tokens</title></rect>
-<rect class="l3" x="98" y="126" width="13" height="13" rx="2"><title>2026-08-13: 443 messages, 138.9M tokens</title></rect>
-<rect class="l3" x="98" y="142" width="13" height="13" rx="2"><title>2026-08-14: 549 messages, 186.9M tokens</title></rect>
-<rect class="l2" x="98" y="158" width="13" height="13" rx="2"><title>2026-08-15: 362 messages, 66.0M tokens</title></rect>
-<rect class="l3" x="114" y="62" width="13" height="13" rx="2"><title>2026-08-16: 455 messages, 142.2M tokens</title></rect>
-<rect class="l1" x="114" y="78" width="13" height="13" rx="2"><title>2026-08-17: 79 messages, 18.5M tokens</title></rect>
+<rect class="l0" x="98" y="94" width="13" height="13" rx="2"><title>2026-08-11: 2 prompts, 0 API calls, 0 tokens</title></rect>
+<rect class="l1" x="98" y="110" width="13" height="13" rx="2"><title>2026-08-12: 1 prompts, 50 API calls, 4.4M tokens</title></rect>
+<rect class="l3" x="98" y="126" width="13" height="13" rx="2"><title>2026-08-13: 21 prompts, 422 API calls, 138.9M tokens</title></rect>
+<rect class="l3" x="98" y="142" width="13" height="13" rx="2"><title>2026-08-14: 15 prompts, 534 API calls, 186.9M tokens</title></rect>
+<rect class="l2" x="98" y="158" width="13" height="13" rx="2"><title>2026-08-15: 27 prompts, 335 API calls, 66.0M tokens</title></rect>
+<rect class="l3" x="114" y="62" width="13" height="13" rx="2"><title>2026-08-16: 21 prompts, 434 API calls, 142.2M tokens</title></rect>
+<rect class="l1" x="114" y="78" width="13" height="13" rx="2"><title>2026-08-17: 11 prompts, 68 API calls, 18.5M tokens</title></rect>
 <rect class="l0" x="114" y="94" width="13" height="13" rx="2"><title>2026-08-18: no usage</title></rect>
-<rect class="l1" x="114" y="110" width="13" height="13" rx="2"><title>2026-08-19: 74 messages, 19.3M tokens</title></rect>
-<rect class="l1" x="114" y="126" width="13" height="13" rx="2"><title>2026-08-20: 49 messages, 10.8M tokens</title></rect>
-<rect class="l0" x="114" y="142" width="13" height="13" rx="2"><title>2026-08-21: 1 messages, 0 tokens</title></rect>
-<rect class="l4" x="114" y="158" width="13" height="13" rx="2"><title>2026-08-22: 797 messages, 207.3M tokens</title></rect>
-<rect class="l2" x="130" y="62" width="13" height="13" rx="2"><title>2026-08-23: 366 messages, 101.7M tokens</title></rect>
-<rect class="l4" x="130" y="78" width="13" height="13" rx="2"><title>2026-08-24: 885 messages, 268.2M tokens</title></rect>
-<rect class="l4" x="130" y="94" width="13" height="13" rx="2"><title>2026-08-25: 987 messages, 265.1M tokens</title></rect>
-<rect class="l4" x="130" y="110" width="13" height="13" rx="2"><title>2026-08-26: 1,865 messages, 399.4M tokens</title></rect>
-<rect class="l2" x="130" y="126" width="13" height="13" rx="2"><title>2026-08-27: 267 messages, 115.5M tokens</title></rect>
-<rect class="l4" x="130" y="142" width="13" height="13" rx="2"><title>2026-08-28: 556 messages, 228.6M tokens</title></rect>
-<rect class="l4" x="130" y="158" width="13" height="13" rx="2"><title>2026-08-29: 1,757 messages, 372.9M tokens</title></rect>
-<rect class="l3" x="146" y="62" width="13" height="13" rx="2"><title>2026-08-30: 440 messages, 153.8M tokens</title></rect>
-<rect class="l4" x="146" y="78" width="13" height="13" rx="2"><title>2026-08-31: 1,671 messages, 613.8M tokens</title></rect>
-<rect class="l4" x="146" y="94" width="13" height="13" rx="2"><title>2026-09-01: 1,139 messages, 514.2M tokens</title></rect>
-<rect class="l4" x="146" y="110" width="13" height="13" rx="2"><title>2026-09-02: 738 messages, 328.0M tokens</title></rect>
-<rect class="l4" x="146" y="126" width="13" height="13" rx="2"><title>2026-09-03: 1,423 messages, 467.9M tokens</title></rect>
-<rect class="l2" x="146" y="142" width="13" height="13" rx="2"><title>2026-09-04: 433 messages, 80.7M tokens</title></rect>
-<rect class="l2" x="146" y="158" width="13" height="13" rx="2"><title>2026-09-05: 163 messages, 61.3M tokens</title></rect>
-<rect class="l3" x="162" y="62" width="13" height="13" rx="2"><title>2026-09-06: 680 messages, 133.2M tokens</title></rect>
-<rect class="l3" x="162" y="78" width="13" height="13" rx="2"><title>2026-09-07: 903 messages, 175.3M tokens</title></rect>
-<rect class="l1" x="162" y="94" width="13" height="13" rx="2"><title>2026-09-08: 136 messages, 36.1M tokens</title></rect>
-<rect class="l1" x="162" y="110" width="13" height="13" rx="2"><title>2026-09-09: 55 messages, 17.7M tokens</title></rect>
-<rect class="l3" x="162" y="126" width="13" height="13" rx="2"><title>2026-09-10: 688 messages, 169.4M tokens</title></rect>
-<rect class="l1" x="162" y="142" width="13" height="13" rx="2"><title>2026-09-11: 137 messages, 20.8M tokens</title></rect>
-<rect class="l3" x="162" y="158" width="13" height="13" rx="2"><title>2026-09-12: 634 messages, 119.3M tokens</title></rect>
-<rect class="l4" x="178" y="62" width="13" height="13" rx="2"><title>2026-09-13: 1,080 messages, 272.1M tokens</title></rect>
-<rect class="l2" x="178" y="78" width="13" height="13" rx="2"><title>2026-09-14: 402 messages, 96.6M tokens</title></rect>
-<rect class="l4" x="178" y="94" width="13" height="13" rx="2"><title>2026-09-15: 1,665 messages, 568.3M tokens</title></rect>
-<rect class="l2" x="178" y="110" width="13" height="13" rx="2"><title>2026-09-16: 550 messages, 118.0M tokens</title></rect>
-<rect class="l4" x="178" y="126" width="13" height="13" rx="2"><title>2026-09-17: 942 messages, 385.9M tokens</title></rect>
-<rect class="l3" x="178" y="142" width="13" height="13" rx="2"><title>2026-09-18: 613 messages, 166.1M tokens</title></rect>
+<rect class="l1" x="114" y="110" width="13" height="13" rx="2"><title>2026-08-19: 1 prompts, 73 API calls, 19.3M tokens</title></rect>
+<rect class="l1" x="114" y="126" width="13" height="13" rx="2"><title>2026-08-20: 3 prompts, 46 API calls, 10.8M tokens</title></rect>
+<rect class="l0" x="114" y="142" width="13" height="13" rx="2"><title>2026-08-21: 1 prompts, 0 API calls, 0 tokens</title></rect>
+<rect class="l4" x="114" y="158" width="13" height="13" rx="2"><title>2026-08-22: 27 prompts, 770 API calls, 207.3M tokens</title></rect>
+<rect class="l2" x="130" y="62" width="13" height="13" rx="2"><title>2026-08-23: 11 prompts, 355 API calls, 101.7M tokens</title></rect>
+<rect class="l4" x="130" y="78" width="13" height="13" rx="2"><title>2026-08-24: 23 prompts, 862 API calls, 268.2M tokens</title></rect>
+<rect class="l4" x="130" y="94" width="13" height="13" rx="2"><title>2026-08-25: 43 prompts, 944 API calls, 265.1M tokens</title></rect>
+<rect class="l4" x="130" y="110" width="13" height="13" rx="2"><title>2026-08-26: 29 prompts, 1,836 API calls, 399.4M tokens</title></rect>
+<rect class="l2" x="130" y="126" width="13" height="13" rx="2"><title>2026-08-27: 12 prompts, 255 API calls, 115.5M tokens</title></rect>
+<rect class="l4" x="130" y="142" width="13" height="13" rx="2"><title>2026-08-28: 33 prompts, 523 API calls, 228.6M tokens</title></rect>
+<rect class="l4" x="130" y="158" width="13" height="13" rx="2"><title>2026-08-29: 68 prompts, 1,689 API calls, 372.9M tokens</title></rect>
+<rect class="l3" x="146" y="62" width="13" height="13" rx="2"><title>2026-08-30: 14 prompts, 426 API calls, 153.8M tokens</title></rect>
+<rect class="l4" x="146" y="78" width="13" height="13" rx="2"><title>2026-08-31: 45 prompts, 1,626 API calls, 613.8M tokens</title></rect>
+<rect class="l4" x="146" y="94" width="13" height="13" rx="2"><title>2026-09-01: 47 prompts, 1,092 API calls, 514.2M tokens</title></rect>
+<rect class="l4" x="146" y="110" width="13" height="13" rx="2"><title>2026-09-02: 16 prompts, 722 API calls, 328.0M tokens</title></rect>
+<rect class="l4" x="146" y="126" width="13" height="13" rx="2"><title>2026-09-03: 39 prompts, 1,384 API calls, 467.9M tokens</title></rect>
+<rect class="l2" x="146" y="142" width="13" height="13" rx="2"><title>2026-09-04: 38 prompts, 395 API calls, 80.7M tokens</title></rect>
+<rect class="l2" x="146" y="158" width="13" height="13" rx="2"><title>2026-09-05: 23 prompts, 140 API calls, 61.3M tokens</title></rect>
+<rect class="l3" x="162" y="62" width="13" height="13" rx="2"><title>2026-09-06: 36 prompts, 644 API calls, 133.2M tokens</title></rect>
+<rect class="l3" x="162" y="78" width="13" height="13" rx="2"><title>2026-09-07: 13 prompts, 890 API calls, 175.3M tokens</title></rect>
+<rect class="l1" x="162" y="94" width="13" height="13" rx="2"><title>2026-09-08: 9 prompts, 127 API calls, 36.1M tokens</title></rect>
+<rect class="l1" x="162" y="110" width="13" height="13" rx="2"><title>2026-09-09: 3 prompts, 52 API calls, 17.7M tokens</title></rect>
+<rect class="l3" x="162" y="126" width="13" height="13" rx="2"><title>2026-09-10: 14 prompts, 674 API calls, 169.4M tokens</title></rect>
+<rect class="l1" x="162" y="142" width="13" height="13" rx="2"><title>2026-09-11: 8 prompts, 129 API calls, 20.8M tokens</title></rect>
+<rect class="l3" x="162" y="158" width="13" height="13" rx="2"><title>2026-09-12: 35 prompts, 599 API calls, 119.3M tokens</title></rect>
+<rect class="l4" x="178" y="62" width="13" height="13" rx="2"><title>2026-09-13: 15 prompts, 1,065 API calls, 272.1M tokens</title></rect>
+<rect class="l2" x="178" y="78" width="13" height="13" rx="2"><title>2026-09-14: 23 prompts, 379 API calls, 96.6M tokens</title></rect>
+<rect class="l4" x="178" y="94" width="13" height="13" rx="2"><title>2026-09-15: 52 prompts, 1,613 API calls, 568.3M tokens</title></rect>
+<rect class="l2" x="178" y="110" width="13" height="13" rx="2"><title>2026-09-16: 39 prompts, 511 API calls, 118.0M tokens</title></rect>
+<rect class="l4" x="178" y="126" width="13" height="13" rx="2"><title>2026-09-17: 37 prompts, 905 API calls, 385.9M tokens</title></rect>
+<rect class="l3" x="178" y="142" width="13" height="13" rx="2"><title>2026-09-18: 64 prompts, 549 API calls, 166.1M tokens</title></rect>
 <rect class="l0" x="178" y="158" width="13" height="13" rx="2"><title>2026-09-19: no usage</title></rect>
-<rect class="l2" x="194" y="62" width="13" height="13" rx="2"><title>2026-09-20: 290 messages, 48.1M tokens</title></rect>
-<rect class="l4" x="194" y="78" width="13" height="13" rx="2"><title>2026-09-21: 998 messages, 231.0M tokens</title></rect>
-<rect class="l4" x="194" y="94" width="13" height="13" rx="2"><title>2026-09-22: 1,612 messages, 512.2M tokens</title></rect>
-<rect class="l2" x="194" y="110" width="13" height="13" rx="2"><title>2026-09-23: 566 messages, 100.0M tokens</title></rect>
-<rect class="l2" x="194" y="126" width="13" height="13" rx="2"><title>2026-09-24: 551 messages, 75.4M tokens</title></rect>
-<rect class="l4" x="194" y="142" width="13" height="13" rx="2"><title>2026-09-25: 1,138 messages, 333.5M tokens</title></rect>
-<rect class="l1" x="194" y="158" width="13" height="13" rx="2"><title>2026-09-26: 72 messages, 6.3M tokens</title></rect>
-<rect class="l2" x="210" y="62" width="13" height="13" rx="2"><title>2026-09-27: 357 messages, 73.2M tokens</title></rect>
-<rect class="l2" x="210" y="78" width="13" height="13" rx="2"><title>2026-09-28: 333 messages, 64.4M tokens</title></rect>
-<rect class="l3" x="210" y="94" width="13" height="13" rx="2"><title>2026-09-29: 600 messages, 162.2M tokens</title></rect>
-<rect class="l4" x="210" y="110" width="13" height="13" rx="2"><title>2026-09-30: 1,032 messages, 208.4M tokens</title></rect>
-<rect class="l2" x="210" y="126" width="13" height="13" rx="2"><title>2026-10-01: 359 messages, 71.1M tokens</title></rect>
-<rect class="l3" x="210" y="142" width="13" height="13" rx="2"><title>2026-10-02: 765 messages, 185.8M tokens</title></rect>
-<rect class="l2" x="210" y="158" width="13" height="13" rx="2"><title>2026-10-03: 335 messages, 51.6M tokens</title></rect>
-<rect class="l1" x="226" y="62" width="13" height="13" rx="2"><title>2026-10-04: 153 messages, 15.8M tokens</title></rect>
-<rect class="l2" x="226" y="78" width="13" height="13" rx="2"><title>2026-10-05: 333 messages, 45.7M tokens</title></rect>
-<rect class="l3" x="226" y="94" width="13" height="13" rx="2"><title>2026-10-06: 550 messages, 144.9M tokens</title></rect>
-<rect class="l2" x="226" y="110" width="13" height="13" rx="2"><title>2026-10-07: 364 messages, 114.4M tokens</title></rect>
-<rect class="l1" x="226" y="126" width="13" height="13" rx="2"><title>2026-10-08: 90 messages, 29.9M tokens</title></rect>
-<rect class="l3" x="226" y="142" width="13" height="13" rx="2"><title>2026-10-09: 774 messages, 191.3M tokens</title></rect>
-<rect class="l1" x="226" y="158" width="13" height="13" rx="2"><title>2026-10-10: 105 messages, 9.0M tokens</title></rect>
-<rect class="l3" x="242" y="62" width="13" height="13" rx="2"><title>2026-10-11: 847 messages, 187.4M tokens</title></rect>
-<rect class="l3" x="242" y="78" width="13" height="13" rx="2"><title>2026-10-12: 796 messages, 131.3M tokens</title></rect>
-<rect class="l2" x="242" y="94" width="13" height="13" rx="2"><title>2026-10-13: 444 messages, 110.7M tokens</title></rect>
-<rect class="l1" x="242" y="110" width="13" height="13" rx="2"><title>2026-10-14: 245 messages, 24.8M tokens</title></rect>
-<rect class="l4" x="242" y="126" width="13" height="13" rx="2"><title>2026-10-15: 1,415 messages, 324.7M tokens</title></rect>
-<rect class="l4" x="242" y="142" width="13" height="13" rx="2"><title>2026-10-16: 1,475 messages, 218.5M tokens</title></rect>
-<rect class="l3" x="242" y="158" width="13" height="13" rx="2"><title>2026-10-17: 860 messages, 120.0M tokens</title></rect>
-<rect class="l3" x="258" y="62" width="13" height="13" rx="2"><title>2026-10-18: 813 messages, 168.8M tokens</title></rect>
-<rect class="l3" x="258" y="78" width="13" height="13" rx="2"><title>2026-10-19: 760 messages, 150.6M tokens</title></rect>
-<rect class="l3" x="258" y="94" width="13" height="13" rx="2"><title>2026-10-20: 796 messages, 156.8M tokens</title></rect>
-<rect class="l2" x="258" y="110" width="13" height="13" rx="2"><title>2026-10-21: 519 messages, 82.5M tokens</title></rect>
+<rect class="l2" x="194" y="62" width="13" height="13" rx="2"><title>2026-09-20: 21 prompts, 269 API calls, 48.1M tokens</title></rect>
+<rect class="l4" x="194" y="78" width="13" height="13" rx="2"><title>2026-09-21: 26 prompts, 972 API calls, 231.0M tokens</title></rect>
+<rect class="l4" x="194" y="94" width="13" height="13" rx="2"><title>2026-09-22: 47 prompts, 1,565 API calls, 512.2M tokens</title></rect>
+<rect class="l2" x="194" y="110" width="13" height="13" rx="2"><title>2026-09-23: 35 prompts, 531 API calls, 100.0M tokens</title></rect>
+<rect class="l2" x="194" y="126" width="13" height="13" rx="2"><title>2026-09-24: 77 prompts, 474 API calls, 75.4M tokens</title></rect>
+<rect class="l4" x="194" y="142" width="13" height="13" rx="2"><title>2026-09-25: 52 prompts, 1,086 API calls, 333.5M tokens</title></rect>
+<rect class="l1" x="194" y="158" width="13" height="13" rx="2"><title>2026-09-26: 5 prompts, 67 API calls, 6.3M tokens</title></rect>
+<rect class="l2" x="210" y="62" width="13" height="13" rx="2"><title>2026-09-27: 29 prompts, 328 API calls, 73.2M tokens</title></rect>
+<rect class="l2" x="210" y="78" width="13" height="13" rx="2"><title>2026-09-28: 51 prompts, 282 API calls, 64.4M tokens</title></rect>
+<rect class="l3" x="210" y="94" width="13" height="13" rx="2"><title>2026-09-29: 54 prompts, 546 API calls, 162.2M tokens</title></rect>
+<rect class="l4" x="210" y="110" width="13" height="13" rx="2"><title>2026-09-30: 73 prompts, 959 API calls, 208.4M tokens</title></rect>
+<rect class="l2" x="210" y="126" width="13" height="13" rx="2"><title>2026-10-01: 13 prompts, 346 API calls, 71.1M tokens</title></rect>
+<rect class="l3" x="210" y="142" width="13" height="13" rx="2"><title>2026-10-02: 24 prompts, 741 API calls, 185.8M tokens</title></rect>
+<rect class="l2" x="210" y="158" width="13" height="13" rx="2"><title>2026-10-03: 43 prompts, 292 API calls, 51.6M tokens</title></rect>
+<rect class="l1" x="226" y="62" width="13" height="13" rx="2"><title>2026-10-04: 7 prompts, 146 API calls, 15.8M tokens</title></rect>
+<rect class="l2" x="226" y="78" width="13" height="13" rx="2"><title>2026-10-05: 31 prompts, 302 API calls, 45.7M tokens</title></rect>
+<rect class="l3" x="226" y="94" width="13" height="13" rx="2"><title>2026-10-06: 57 prompts, 493 API calls, 144.9M tokens</title></rect>
+<rect class="l2" x="226" y="110" width="13" height="13" rx="2"><title>2026-10-07: 28 prompts, 336 API calls, 114.4M tokens</title></rect>
+<rect class="l1" x="226" y="126" width="13" height="13" rx="2"><title>2026-10-08: 4 prompts, 86 API calls, 29.9M tokens</title></rect>
+<rect class="l3" x="226" y="142" width="13" height="13" rx="2"><title>2026-10-09: 74 prompts, 700 API calls, 191.3M tokens</title></rect>
+<rect class="l1" x="226" y="158" width="13" height="13" rx="2"><title>2026-10-10: 4 prompts, 101 API calls, 9.0M tokens</title></rect>
+<rect class="l3" x="242" y="62" width="13" height="13" rx="2"><title>2026-10-11: 72 prompts, 775 API calls, 187.4M tokens</title></rect>
+<rect class="l3" x="242" y="78" width="13" height="13" rx="2"><title>2026-10-12: 21 prompts, 775 API calls, 131.3M tokens</title></rect>
+<rect class="l2" x="242" y="94" width="13" height="13" rx="2"><title>2026-10-13: 32 prompts, 412 API calls, 110.7M tokens</title></rect>
+<rect class="l1" x="242" y="110" width="13" height="13" rx="2"><title>2026-10-14: 27 prompts, 218 API calls, 24.8M tokens</title></rect>
+<rect class="l4" x="242" y="126" width="13" height="13" rx="2"><title>2026-10-15: 144 prompts, 1,271 API calls, 324.7M tokens</title></rect>
+<rect class="l4" x="242" y="142" width="13" height="13" rx="2"><title>2026-10-16: 41 prompts, 1,434 API calls, 218.5M tokens</title></rect>
+<rect class="l3" x="242" y="158" width="13" height="13" rx="2"><title>2026-10-17: 29 prompts, 831 API calls, 120.0M tokens</title></rect>
+<rect class="l3" x="258" y="62" width="13" height="13" rx="2"><title>2026-10-18: 80 prompts, 733 API calls, 168.8M tokens</title></rect>
+<rect class="l3" x="258" y="78" width="13" height="13" rx="2"><title>2026-10-19: 63 prompts, 697 API calls, 150.6M tokens</title></rect>
+<rect class="l3" x="258" y="94" width="13" height="13" rx="2"><title>2026-10-20: 87 prompts, 709 API calls, 156.8M tokens</title></rect>
+<rect class="l2" x="258" y="110" width="13" height="13" rx="2"><title>2026-10-21: 60 prompts, 482 API calls, 85.1M tokens</title></rect>
 <text class="label" x="135" y="195">Less</text>
 <rect class="l0" x="167" y="186" width="11" height="11" rx="2"/>
 <rect class="l1" x="181" y="186" width="11" height="11" rx="2"/>
@@ -122,17 +122,21 @@
 <rect class="l3" x="209" y="186" width="11" height="11" rx="2"/>
 <rect class="l4" x="223" y="186" width="11" height="11" rx="2"/>
 <text class="label" x="241" y="195">More</text>
-<text class="head" x="397" y="66">MESSAGES</text>
-<text class="head" x="517" y="66">TOKENS</text>
-<line class="rule" x1="307" x2="617" y1="76" y2="76"/>
+<text class="head" x="397" y="66">PROMPTS</text>
+<text class="head" x="492" y="66">API CALLS</text>
+<text class="head" x="602" y="66">TOKENS</text>
+<line class="rule" x1="307" x2="692" y1="76" y2="76"/>
 <text class="label" x="307" y="106">Last 7 days</text>
-<text class="value" x="397" y="107">6.6K</text>
-<text class="value" x="517" y="107">1.2B</text>
+<text class="value" x="397" y="107">504</text>
+<text class="value" x="492" y="107">6.2K</text>
+<text class="value" x="602" y="107">1.2B</text>
 <text class="label" x="307" y="136">Last 30 days</text>
-<text class="value" x="397" y="137">19.1K</text>
-<text class="value" x="517" y="137">4.1B</text>
+<text class="value" x="397" y="137">1.4K</text>
+<text class="value" x="492" y="137">17.7K</text>
+<text class="value" x="602" y="137">4.1B</text>
 <text class="label" x="307" y="166">Last 90 days</text>
-<text class="value" x="397" y="167">45.5K</text>
-<text class="value" x="517" y="167">11.6B</text>
-<text class="label" x="307" y="199">Updated 2026-10-21 · from local Claude Code session logs</text>
+<text class="value" x="397" y="167">2.4K</text>
+<text class="value" x="492" y="167">43.1K</text>
+<text class="value" x="602" y="167">11.6B</text>
+<text class="label" x="307" y="199">Prompts = messages I typed · API calls incl. subagents · updated 2026-10-21</text>
 </svg>
